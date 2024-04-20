@@ -94,11 +94,7 @@
 						"exec": [
 							"var jsondata = pm.response.json();",
 							"pm.environment.set(\"quiz_id\", jsondata.id);",
-							"",
-							"pm.test(\"Your test name\", function () {",
-							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.value).to.eql(200);",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
